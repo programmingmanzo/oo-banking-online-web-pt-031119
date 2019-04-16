@@ -1,3 +1,5 @@
+require 'pry'
+
 class Transfer
   # your code here
   
@@ -7,7 +9,7 @@ class Transfer
     @sender = sender 
     @receiver = receiver
     @transfer = self 
-     
+     binding.pry 
   end 
   
   
