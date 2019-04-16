@@ -9,7 +9,7 @@ class Transfer
     @sender = sender 
     @receiver = receiver
     @transfer = self 
-     binding.pry 
+     #binding.pry 
   end 
   
   
