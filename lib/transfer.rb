@@ -5,8 +5,8 @@ class Transfer
   
   attr_accessor :sender, :receiver, :transfer 
   
-  def initialize(transfer, sender, receiver)
-    @sender = sender 
+  def initialize(sender, receiver, transfer)
+    @sender =  sender 
     @receiver = receiver
     @transfer = self 
      #binding.pry 
