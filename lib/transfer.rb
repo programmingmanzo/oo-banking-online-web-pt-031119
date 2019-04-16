@@ -14,6 +14,9 @@ class Transfer
      #binding.pry 
   end 
   
+  def valid? 
+  end 
+  
   
   
   
